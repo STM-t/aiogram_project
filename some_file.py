@@ -66,7 +66,7 @@ async def process_stat_command(message: Message):
         f'{users[message.from_user.id]["total_games"]}\n'
         f'Игр выиграно: {users[message.from_user.id]["wins"]}'
     )
-
+ 
 
 # Этот хэндлер будет срабатывать на команду "/cancel"
 @dp.message(Command(commands='cancel'))
