@@ -12,13 +12,11 @@ BOT_TOKEN = '7381945769:AAH1payYJB0fKrDtIyFaetnQlM5MmnxHFyk'
 bot = Bot(BOT_TOKEN)
 dp = Dispatcher()
 
-
 # Количество попыток, доступных пользователю в игре
 ATTEMPTS = 5
 
 # Словарь, в котором будут храниться данные пользователя
 users = {}
-
 
 # Функция возвращающая случайное целое число от 1 до 100
 def get_random_number() -> int:
