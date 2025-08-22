@@ -53,7 +53,7 @@ async def process_help_command(message: Message):
         f'игры и список команд\n/cancel - выйти из игры\n'
         f'/stat - посмотреть статистику\n\nДавай сыграем?'
     )
-
+ 
 
 # Этот хэндлер будет срабатывать на команду "/stat"
 @dp.message(Command(commands='stat'))
