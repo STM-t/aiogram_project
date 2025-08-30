@@ -54,7 +54,7 @@ async def process_help_command(message: Message):
         f'/stat - посмотреть статистику\n\nДавай сыграем?'
     )
  
-
+ 
 # Этот хэндлер будет срабатывать на команду "/stat"
 @dp.message(Command(commands='stat'))
 async def process_stat_command(message: Message):
