@@ -98,7 +98,7 @@ async def process_positive_answer(message: Message):
             'и команды /cancel и /stat'
         )
 
-
+ 
 # Этот хэндлер будет срабатывать на отказ пользователя сыграть в игру
 @dp.message(F.text.lower().in_(['нет', 'не', 'не хочу', 'не буду']))
 async def process_negative_answer(message: Message):
