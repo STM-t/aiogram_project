@@ -12,7 +12,6 @@ BOT_TOKEN = ''
 bot = Bot(BOT_TOKEN)
 dp = Dispatcher()
 
-
 # Количество попыток, доступных пользователю в игре
 ATTEMPTS = 5
 
