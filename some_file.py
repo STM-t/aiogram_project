@@ -4,8 +4,6 @@ from aiogram.types import Message
 
 import random
 
-
-
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота,
 # полученный у @BotFather
 BOT_TOKEN = ''
