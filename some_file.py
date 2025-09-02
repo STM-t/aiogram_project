@@ -19,8 +19,7 @@ ATTEMPTS = 5
 users = {}
 
 # Функция возвращающая случайное целое число от 1 до 100
-def get_random_number() -> int:
-    return random.randint(1, 100)
+
 
 
 # Этот хэндлер будет срабатывать на команду "/start"
